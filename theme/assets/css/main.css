@@ -24,7 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #333;
+    color: black;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h1 {
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-size: 16px;
 }
 
@@ -48,7 +48,7 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #808080;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -90,13 +90,13 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
+	background-color: black;
+	border-color: black;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -104,7 +104,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+	color: black;
 }
 
 .navbar-brand {
@@ -122,7 +122,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #1abc9c;
+  background-color: #808080;
 }
 
 
@@ -206,6 +206,9 @@ bt {
 	font-size: 12px;
 }
 
+
+
+
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
 .zoom { 
@@ -238,7 +241,5 @@ bt {
 
 .glyphicon {
 	font-size: 40px;
-	color: #1abc9c;
+	color: #808080;
 }
-
- 
